@@ -16,6 +16,23 @@
 	<!-- Spring dispatcher controller -->
 	<context:component-scan base-package="id.web.aju.mystore.controller"/>
 	
+	<!-- Public assets folder -->
+	<mvc:annotation-driven/>
+	<mvc:default-servlet-handler/>
+	<mvc:resources location="/assets/" mapping="/public/**"/>
+	
+	<!-- Apache Tiles templating setup -->
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.tiles3.TilesViewResolver"/>
+	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+		<property name="definitions">
+			<list>
+				<value>/WEB-INF/tiles-layouts.xml</value>
+				<value>/WEB-INF/tiles-views.xml</value>
+			</list>
+		</property>
+	</bean>
+	
+	
 	<!-- Spring view resolver -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">

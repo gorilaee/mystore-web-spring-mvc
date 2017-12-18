@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Login Page-->
+	<definition name="showLogin" extends="template.adminlte.base">
+		<put-attribute name="title" value="Login"/>
+		<put-attribute name="style.extra" value="/WEB-INF/templates/AdminLTE/StyleExtraLogin.jsp"/>
+		<put-attribute name="body.class" value="hold-transition login-page"/>
+		<put-attribute name="body.content" value="/WEB-INF/pages/login/index.jsp"/>
+		<put-attribute name="script.extra" value="/WEB-INF/templates/AdminLTE/ScriptExtraLogin.jsp"/>
+	</definition>
+	
+	<!-- 404 Page -->
+	<definition name="show404" extends="template.adminlte.base">
+		<put-attribute name="title" value="404 Page not found"/>
+		<put-attribute name="body.class" value="hold-transition skin-blue sidebar-mini"/>
+		<put-attribute name="body.content" value="/WEB-INF/pages/errors/404.jsp"/>
+		<put-attribute name="script.extra" value="/WEB-INF/templates/AdminLTE/ScriptExtraErrors.jsp"/>
+	</definition>
+
+</tiles-definitions>

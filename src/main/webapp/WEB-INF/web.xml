@@ -16,5 +16,11 @@
 		<servlet-name>dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+	<!-- Error page handler -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/errors/404</location>
+	  </error-page>
 
 </web-app>

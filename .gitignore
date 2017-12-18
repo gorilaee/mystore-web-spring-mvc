@@ -23,3 +23,6 @@ hs_err_pid*
 
 #target folder
 target/
+
+#node_modules folder
+src/main/webapp/assets/node_modules/

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="template.adminlte.base" template="/WEB-INF/templates/AdminLTE/base.jsp">
+		<put-attribute name="title" value=""/>
+		<put-attribute name="style.default" value="/WEB-INF/templates/AdminLTE/StyleDefault.jsp"/>
+		<put-attribute name="style.extra" value=""/>
+		<put-attribute name="body.class" value=""/>
+		<put-attribute name="body.content" value=""/>
+		<put-attribute name="script.default" value="/WEB-INF/templates/AdminLTE/ScriptDefault.jsp"/>
+		<put-attribute name="script.extra" value=""/>
+	</definition>
+
+</tiles-definitions>        
