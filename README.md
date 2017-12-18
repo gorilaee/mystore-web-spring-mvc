@@ -11,7 +11,11 @@ Simple store web application using spring mvc and hibernate
 1. Clone this repo to your local workspace
 2. Open up Spring Tools Suite, and import existing maven project, point it to the cloned folder
 3. Open up terminal/command prompt, go to src/main/webapp/assets, run
-	npm install
+	* npm install bootstrap@3
+	* npm install jquery
+	* npm install font-awesome
+	* npm install ionicons
+	* npm install fastclick
 4. Run the project
 
 
