@@ -36,7 +36,7 @@
 										<!-- start message --> <a href="#">
 											<div class="pull-left">
 												<img src='<c:url value="/public/templates/AdminLTE/dist/img/user2-160x160.jpg"/>'
-													class="img-circle" alt="User Image">
+													class="img-circle" alt="User Image"/>
 											</div>
 											<h4>
 												Support Team <small><i class="fa fa-clock-o"></i> 5
@@ -49,7 +49,7 @@
 									<li><a href="#">
 											<div class="pull-left">
 												<img src='<c:url value="/public/templates/AdminLTE/dist/img/user3-128x128.jpg"/>'
-													class="img-circle" alt="User Image">
+													class="img-circle" alt="User Image"/>
 											</div>
 											<h4>
 												AdminLTE Design Team <small><i class="fa fa-clock-o"></i>
